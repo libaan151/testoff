@@ -14,7 +14,7 @@ _G.KEY = "q"
 			L_91_.Name = "PP"
 			L_91_.Adornee = L_87_arg1
 			L_91_.Size = UDim2.new(L_89_arg3, L_90_arg4, L_89_arg3, L_90_arg4)
-			L_91_.AlwaysOnTop = false
+			L_91_.AlwaysOnTop = true
 			local L_92_ = Instance.new("Frame", L_91_)
 			L_92_.Size = UDim2.new(4, 0, 4, 0)
 			L_92_.BackgroundTransparency = 0.1
@@ -73,7 +73,7 @@ _G.KEY = "q"
 		)
 		spawn(
 			function()
-				L_81_.Anchored = true
+				L_81_.Anchored = false
 				L_81_.CanCollide = false
 				L_81_.Size = Vector3.new(0.1, 0.1, 0.1)
 				L_81_.Transparency = 0.1
