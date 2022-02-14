@@ -73,7 +73,7 @@ _G.KEY = "q"
 		)
 		spawn(
 			function()
-				L_81_.Anchored = true
+				L_81_.Anchored = false
 				L_81_.CanCollide = false
 				L_81_.Size = Vector3.new(0.1, 0.1, 0.1)
 				L_81_.Transparency = 0.1
@@ -167,7 +167,7 @@ _G.KEY = "q"
 					_G.AIR = 0.00005
 					_G.PART = "HumanoidRootPart"
 					_G.PRED = 0.032
-					TextLabel.Visible = false
+					TextLabel.Visible = true
 				end
 			end
 		)
@@ -178,7 +178,7 @@ _G.KEY = "q"
 					_G.AIR = 0.00005
 					_G.PART = "LowerTorso"
 					_G.PRED = 0.032
-					TextLabel.Visible = false
+					TextLabel.Visible = true
 				end
 			end
 		)
@@ -189,7 +189,7 @@ _G.KEY = "q"
 					_G.AIR = 0.00005
 					_G.PART = "LowerTorso"
 					_G.PRED = 0.033
-					TextLabel.Visible = false
+					TextLabel.Visible = true
 					L_81_ = nil
 				end
 			end
