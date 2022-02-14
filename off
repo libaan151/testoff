@@ -167,7 +167,7 @@ _G.KEY = "q"
 					_G.AIR = 0.00005
 					_G.PART = "HumanoidRootPart"
 					_G.PRED = 0.032
-					TextLabel.Visible = false
+					TextLabel.Visible = true
 				end
 			end
 		)
@@ -178,7 +178,7 @@ _G.KEY = "q"
 					_G.AIR = 0.00005
 					_G.PART = "LowerTorso"
 					_G.PRED = 0.032
-					TextLabel.Visible = false
+					TextLabel.Visible = true
 				end
 			end
 		)
