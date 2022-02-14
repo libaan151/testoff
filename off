@@ -1,4 +1,4 @@
-_G.KEY = "q"
+_G.KEY = "c"
 		_G.PART = "HumanoidRootPart"
 		_G.PRED = 0.057
 		_G.Frame = Vector3.new(0, 0.53, 0)
