@@ -178,7 +178,7 @@ _G.KEY = "q"
 					_G.AIR = 0.00005
 					_G.PART = "LowerTorso"
 					_G.PRED = 0.032
-					TextLabel.Visible = true
+					TextLabel.Visible = false
 				end
 			end
 		)
